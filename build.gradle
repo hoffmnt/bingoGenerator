@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.13'
+    compile 'org.apache.xmlgraphics:fop:2.0'
+    compile 'com.beust:jcommander:1.48'
+
+    testCompile 'junit:junit:4.12'
+}
