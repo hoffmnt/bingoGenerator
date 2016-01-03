@@ -28,6 +28,11 @@ public class BingoGenerator {
 			help=true)
 	private boolean help;
 	
+	@Parameter(
+			names={"-n", "--number"},
+			description="number of Bingo cards generated; default 10")
+	private int numCards = 10;
+
 	public BingoGenerator() {
 		
 	}
