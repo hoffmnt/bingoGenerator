@@ -25,6 +25,7 @@ public class BingoGenerator {
 	
 	@Parameter(
 			names={"-h", "--help"},
+			description="shows this help screen",
 			help=true)
 	private boolean help;
 	
